@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to right, #2c3e50, #2c3333);
+}
+
+.searchbox {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.header {
+    background: #34495e;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#val {
+    border: none;
+    background: #2c3e50;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.container {
+    background: #f1f1f1;
+}
+
+.profile {
+    margin: 0 6px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background: darkslategrey;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 600;
+    color: #333333;
+}
